@@ -8,6 +8,12 @@
       "headers": {
         "Cache-Control": "no-cache, no-store"
       }
+    },
+    {
+      "route": "/b/*.html",
+      "headers": {
+        "Cache-Control": "public, max-age=604800, immutable"
+      }
     }
   ]
 }
