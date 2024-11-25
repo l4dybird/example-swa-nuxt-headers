@@ -10,10 +10,10 @@
       <NuxtLink :to="'/c/hoga'">Hoga</NuxtLink>
     </li>
     <li>
-      <NuxtLink :to="'/sample/Cache'">Cache</NuxtLink>
+      <NuxtLink :to="'/sample/cache'">Cache</NuxtLink>
     </li>
     <li>
-      <NuxtLink :to="'/sample/Store'">Store</NuxtLink>
+      <NuxtLink :to="'/sample/store'">Store</NuxtLink>
     </li>
   </ul>
 </template>
