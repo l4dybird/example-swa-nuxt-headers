@@ -5,6 +5,9 @@
   "routes": [
     {
       "route": "/a/*/index.html",
+      "methods": [
+        "get"
+      ],
       "headers": {
         "Cache-Control": "no-cache, no-store"
       }
