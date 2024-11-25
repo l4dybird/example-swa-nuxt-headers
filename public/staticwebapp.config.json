@@ -8,12 +8,6 @@
       "headers": {
         "Cache-Control": "no-cache, no-store"
       }
-    },
-    {
-      "route": "/b/fuga/index.html",
-      "headers": {
-        "Cache-Control": "no-cache, no-store"
-      }
     }
   ]
 }
