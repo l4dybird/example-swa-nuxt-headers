@@ -10,7 +10,7 @@
       }
     },
     {
-      "route": "/b/**/index.html",
+      "route": "/b/**/*.{html}",
       "headers": {
         "Cache-Control": "no-cache, no-store"
       }
