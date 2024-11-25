@@ -1,4 +1,6 @@
 <template>
-  Layout
+  <NuxtLink to="/">
+    Layout
+  </NuxtLink>
   <slot />
 </template>
