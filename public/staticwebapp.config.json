@@ -12,7 +12,13 @@
     {
       "route": "/b/fuga/index.html",
       "headers": {
-        "Cache-Control": "public, max-age=604800, immutable"
+        "Cache-Control": "public, max-age=3600, immutable"
+      }
+    },
+    {
+      "route": "/_nuxt/*.{js,css}",
+      "headers": {
+        "Cache-Control": "public, max-age=3600, immutable"
       }
     }
   ]
