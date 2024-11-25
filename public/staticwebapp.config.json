@@ -20,6 +20,18 @@
       "headers": {
         "Cache-Control": "public, max-age=3600, immutable"
       }
+    },
+    {
+      "route": "/sample/cache/index.html",
+      "headers": {
+        "Cache-Control": "no-cache"
+      }
+    },
+    {
+      "route": "/sample/store/index.html",
+      "headers": {
+        "Cache-Control": "no-store"
+      }
     }
   ]
 }
