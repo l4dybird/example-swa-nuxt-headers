@@ -10,7 +10,7 @@
       }
     },
     {
-      "route": "/b/fuga/*.html",
+      "route": "/b/fuga/index.html",
       "headers": {
         "Cache-Control": "public, max-age=604800, immutable"
       }
